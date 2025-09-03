@@ -67,58 +67,58 @@ const regionalCenters = [
 ];
 
 const aircraftFleets = [
-  { id: 'AF001', name: 'Lufthansa A350 Fleet', lat: 50.1109, lng: 8.6821, type: 'A350', demand: 'high' },
-  { id: 'AF002', name: 'Emirates A380 Fleet', lat: 25.2048, lng: 55.2708, type: 'A380', demand: 'medium' },
-  { id: 'AF003', name: 'Delta A320 Fleet', lat: 33.7490, lng: -84.3880, type: 'A320', demand: 'high' },
-  { id: 'AF004', name: 'British Airways A350 Fleet', lat: 51.5074, lng: -0.1278, type: 'A350', demand: 'medium' },
-  { id: 'AF005', name: 'Air France A330 Fleet', lat: 48.8566, lng: 2.3522, type: 'A330', demand: 'high' },
-  { id: 'AF006', name: 'Qatar Airways A350 Fleet', lat: 25.2854, lng: 51.5310, type: 'A350', demand: 'low' },
-  { id: 'AF007', name: 'Singapore Airlines A380 Fleet', lat: 1.3521, lng: 103.8198, type: 'A380', demand: 'medium' },
-  { id: 'AF008', name: 'United Airlines A320 Fleet', lat: 41.8781, lng: -87.6298, type: 'A320', demand: 'high' },
-  { id: 'AF009', name: 'American Airlines A350 Fleet', lat: 32.7767, lng: -96.7970, type: 'A350', demand: 'high' },
-  { id: 'AF010', name: 'Cathay Pacific A350 Fleet', lat: 22.3193, lng: 114.1694, type: 'A350', demand: 'medium' },
+  { id: 'AF001', name: 'Lufthansa 787 Fleet', lat: 50.1109, lng: 8.6821, type: '787', demand: 'high' },
+  { id: 'AF002', name: 'Emirates 777X Fleet', lat: 25.2048, lng: 55.2708, type: '777X', demand: 'medium' },
+  { id: 'AF003', name: 'Delta 737 MAX Fleet', lat: 33.7490, lng: -84.3880, type: '737 MAX', demand: 'high' },
+  { id: 'AF004', name: 'British Airways 787 Fleet', lat: 51.5074, lng: -0.1278, type: '787', demand: 'medium' },
+  { id: 'AF005', name: 'Air France 777 Fleet', lat: 48.8566, lng: 2.3522, type: '777', demand: 'high' },
+  { id: 'AF006', name: 'Qatar Airways 787 Fleet', lat: 25.2854, lng: 51.5310, type: '787', demand: 'low' },
+  { id: 'AF007', name: 'Singapore Airlines 777X Fleet', lat: 1.3521, lng: 103.8198, type: '777X', demand: 'medium' },
+  { id: 'AF008', name: 'United Airlines 737 MAX Fleet', lat: 41.8781, lng: -87.6298, type: '737 MAX', demand: 'high' },
+  { id: 'AF009', name: 'American Airlines 787 Fleet', lat: 32.7767, lng: -96.7970, type: '787', demand: 'high' },
+  { id: 'AF010', name: 'Cathay Pacific 787 Fleet', lat: 22.3193, lng: 114.1694, type: '787', demand: 'medium' },
   
   // Additional fleets - European region
-  { id: 'AF011', name: 'KLM A330 Fleet', lat: 52.3676, lng: 4.9041, type: 'A330', demand: 'medium' },
-  { id: 'AF012', name: 'Iberia A350 Fleet', lat: 40.4168, lng: -3.7038, type: 'A350', demand: 'high' },
-  { id: 'AF013', name: 'Swiss A320 Fleet', lat: 47.3769, lng: 8.5417, type: 'A320', demand: 'medium' },
-  { id: 'AF014', name: 'Austrian Airlines A320 Fleet', lat: 48.2082, lng: 16.3738, type: 'A320', demand: 'medium' },
-  { id: 'AF015', name: 'SAS A350 Fleet', lat: 59.3293, lng: 18.0686, type: 'A350', demand: 'low' },
+  { id: 'AF011', name: 'KLM 777 Fleet', lat: 52.3676, lng: 4.9041, type: '777', demand: 'medium' },
+  { id: 'AF012', name: 'Iberia 787 Fleet', lat: 40.4168, lng: -3.7038, type: '787', demand: 'high' },
+  { id: 'AF013', name: 'Swiss 737 MAX Fleet', lat: 47.3769, lng: 8.5417, type: '737 MAX', demand: 'medium' },
+  { id: 'AF014', name: 'Austrian Airlines 737 MAX Fleet', lat: 48.2082, lng: 16.3738, type: '737 MAX', demand: 'medium' },
+  { id: 'AF015', name: 'SAS 787 Fleet', lat: 59.3293, lng: 18.0686, type: '787', demand: 'low' },
   
   // Asia-Pacific region
-  { id: 'AF016', name: 'ANA A380 Fleet', lat: 35.6762, lng: 139.6503, type: 'A380', demand: 'medium' },
-  { id: 'AF017', name: 'JAL A350 Fleet', lat: 35.6762, lng: 139.6503, type: 'A350', demand: 'low' },
-  { id: 'AF018', name: 'Korean Air A380 Fleet', lat: 37.5665, lng: 126.9780, type: 'A380', demand: 'medium' },
-  { id: 'AF019', name: 'China Southern A350 Fleet', lat: 23.1291, lng: 113.2644, type: 'A350', demand: 'high' },
-  { id: 'AF020', name: 'Air India A350 Fleet', lat: 28.6139, lng: 77.2090, type: 'A350', demand: 'low' },
+  { id: 'AF016', name: 'ANA 777X Fleet', lat: 35.6762, lng: 139.6503, type: '777X', demand: 'medium' },
+  { id: 'AF017', name: 'JAL 787 Fleet', lat: 35.6762, lng: 139.6503, type: '787', demand: 'low' },
+  { id: 'AF018', name: 'Korean Air 777X Fleet', lat: 37.5665, lng: 126.9780, type: '777X', demand: 'medium' },
+  { id: 'AF019', name: 'China Southern 787 Fleet', lat: 23.1291, lng: 113.2644, type: '787', demand: 'high' },
+  { id: 'AF020', name: 'Air India 787 Fleet', lat: 28.6139, lng: 77.2090, type: '787', demand: 'low' },
   
   // North American region
-  { id: 'AF021', name: 'Air Canada A330 Fleet', lat: 43.6532, lng: -79.3832, type: 'A330', demand: 'high' },
-  { id: 'AF022', name: 'WestJet A320 Fleet', lat: 51.0447, lng: -114.0719, type: 'A320', demand: 'medium' },
-  { id: 'AF023', name: 'JetBlue A320 Fleet', lat: 40.7128, lng: -74.0060, type: 'A320', demand: 'high' },
-  { id: 'AF024', name: 'Southwest A320 Fleet', lat: 32.7767, lng: -96.7970, type: 'A320', demand: 'medium' },
-  { id: 'AF025', name: 'Alaska Airlines A320 Fleet', lat: 47.6062, lng: -122.3321, type: 'A320', demand: 'medium' },
+  { id: 'AF021', name: 'Air Canada 777 Fleet', lat: 43.6532, lng: -79.3832, type: '777', demand: 'high' },
+  { id: 'AF022', name: 'WestJet 737 MAX Fleet', lat: 51.0447, lng: -114.0719, type: '737 MAX', demand: 'medium' },
+  { id: 'AF023', name: 'JetBlue 737 MAX Fleet', lat: 40.7128, lng: -74.0060, type: '737 MAX', demand: 'high' },
+  { id: 'AF024', name: 'Southwest 737 MAX Fleet', lat: 32.7767, lng: -96.7970, type: '737 MAX', demand: 'medium' },
+  { id: 'AF025', name: 'Alaska Airlines 737 MAX Fleet', lat: 47.6062, lng: -122.3321, type: '737 MAX', demand: 'medium' },
   
   // Middle East region
-  { id: 'AF026', name: 'Etihad A350 Fleet', lat: 24.4539, lng: 54.3773, type: 'A350', demand: 'high' },
-  { id: 'AF027', name: 'Turkish Airlines A350 Fleet', lat: 41.0082, lng: 28.9784, type: 'A350', demand: 'medium' },
-  { id: 'AF028', name: 'EgyptAir A330 Fleet', lat: 30.0444, lng: 31.2357, type: 'A330', demand: 'high' },
-  { id: 'AF029', name: 'Royal Jordanian A320 Fleet', lat: 31.9539, lng: 35.9106, type: 'A320', demand: 'medium' },
-  { id: 'AF030', name: 'Oman Air A330 Fleet', lat: 23.5880, lng: 58.3829, type: 'A330', demand: 'low' },
+  { id: 'AF026', name: 'Etihad 787 Fleet', lat: 24.4539, lng: 54.3773, type: '787', demand: 'high' },
+  { id: 'AF027', name: 'Turkish Airlines 787 Fleet', lat: 41.0082, lng: 28.9784, type: '787', demand: 'medium' },
+  { id: 'AF028', name: 'EgyptAir 777 Fleet', lat: 30.0444, lng: 31.2357, type: '777', demand: 'high' },
+  { id: 'AF029', name: 'Royal Jordanian 737 MAX Fleet', lat: 31.9539, lng: 35.9106, type: '737 MAX', demand: 'medium' },
+  { id: 'AF030', name: 'Oman Air 777 Fleet', lat: 23.5880, lng: 58.3829, type: '777', demand: 'low' },
   
   // African region
-  { id: 'AF031', name: 'Ethiopian Airlines A350 Fleet', lat: 9.0320, lng: 38.7488, type: 'A350', demand: 'high' },
-  { id: 'AF032', name: 'Kenya Airways A330 Fleet', lat: -1.2921, lng: 36.8219, type: 'A330', demand: 'medium' },
-  { id: 'AF033', name: 'South African Airways A350 Fleet', lat: -26.2041, lng: 28.0473, type: 'A350', demand: 'medium' },
-  { id: 'AF034', name: 'Royal Air Maroc A330 Fleet', lat: 33.9716, lng: -6.8498, type: 'A330', demand: 'low' },
-  { id: 'AF035', name: 'Air Algerie A330 Fleet', lat: 36.7538, lng: 3.0588, type: 'A330', demand: 'medium' },
+  { id: 'AF031', name: 'Ethiopian Airlines 787 Fleet', lat: 9.0320, lng: 38.7488, type: '787', demand: 'high' },
+  { id: 'AF032', name: 'Kenya Airways 777 Fleet', lat: -1.2921, lng: 36.8219, type: '777', demand: 'medium' },
+  { id: 'AF033', name: 'South African Airways 787 Fleet', lat: -26.2041, lng: 28.0473, type: '787', demand: 'medium' },
+  { id: 'AF034', name: 'Royal Air Maroc 777 Fleet', lat: 33.9716, lng: -6.8498, type: '777', demand: 'low' },
+  { id: 'AF035', name: 'Air Algerie 777 Fleet', lat: 36.7538, lng: 3.0588, type: '777', demand: 'medium' },
   
   // South American region
-  { id: 'AF036', name: 'LATAM A350 Fleet', lat: -33.4489, lng: -70.6693, type: 'A350', demand: 'high' },
-  { id: 'AF037', name: 'Avianca A320 Fleet', lat: 4.7110, lng: -74.0721, type: 'A320', demand: 'medium' },
-  { id: 'AF038', name: 'Copa Airlines A320 Fleet', lat: 8.5380, lng: -80.7821, type: 'A320', demand: 'medium' },
-  { id: 'AF039', name: 'Aeromexico A350 Fleet', lat: 19.4326, lng: -99.1332, type: 'A350', demand: 'high' },
-  { id: 'AF040', name: 'TAM A330 Fleet', lat: -23.5505, lng: -46.6333, type: 'A330', demand: 'medium' }
+  { id: 'AF036', name: 'LATAM 787 Fleet', lat: -33.4489, lng: -70.6693, type: '787', demand: 'high' },
+  { id: 'AF037', name: 'Avianca 737 MAX Fleet', lat: 4.7110, lng: -74.0721, type: '737 MAX', demand: 'medium' },
+  { id: 'AF038', name: 'Copa Airlines 737 MAX Fleet', lat: 8.5380, lng: -80.7821, type: '737 MAX', demand: 'medium' },
+  { id: 'AF039', name: 'Aeromexico 787 Fleet', lat: 19.4326, lng: -99.1332, type: '787', demand: 'high' },
+  { id: 'AF040', name: 'TAM 777 Fleet', lat: -23.5505, lng: -46.6333, type: '777', demand: 'medium' }
 ];
 
 // Maintenance routes
