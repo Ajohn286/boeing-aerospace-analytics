@@ -1,4 +1,4 @@
-# Cola Demo
+# Boeing Aerospace Manufacturing Analytics Dashboard
 
 A data visualization and transformation platform built with Next.js. This application provides powerful tools for:
 
