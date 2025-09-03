@@ -144,10 +144,10 @@ export default function Analytics() {
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: 'calc(100vh - 64px)' }}>
       <Box sx={{ p: 3, pb: 2, backgroundColor: 'background.paper', borderBottom: 1, borderColor: 'divider' }}>
         <Typography variant="h4" gutterBottom>
-          Airbus Manufacturing Analytics Dashboard
+          Boeing Manufacturing Analytics Dashboard
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Comprehensive analytics hub for Airbus manufacturing operations, predictive maintenance, and production optimization
+          Comprehensive analytics hub for Boeing manufacturing operations, predictive maintenance, and production optimization
         </Typography>
       </Box>
 
