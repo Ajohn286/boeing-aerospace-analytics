@@ -47,12 +47,12 @@ const CircleMarker = dynamic(() => import('react-leaflet').then(mod => mod.Circl
 
 // Aircraft fleet data
 const maintenanceFacilities = [
-      { id: 'MF001', name: 'Airbus Maintenance - Toulouse', lat: 43.6047, lng: 1.4442, capacity: 25, status: 'operational' },
-    { id: 'MF002', name: 'Airbus Maintenance - Hamburg', lat: 53.5511, lng: 9.9937, capacity: 18, status: 'operational' },
-    { id: 'MF003', name: 'Airbus Maintenance - Tianjin', lat: 39.0842, lng: 117.2009, capacity: 12, status: 'maintenance' },
-    { id: 'MF004', name: 'Airbus Maintenance - Mobile', lat: 30.6954, lng: -88.0399, capacity: 8, status: 'operational' },
-    { id: 'MF005', name: 'Airbus Maintenance - Seattle', lat: 47.6062, lng: -122.3321, capacity: 15, status: 'operational' },
-    { id: 'MF006', name: 'Airbus Maintenance - Dubai', lat: 25.2048, lng: 55.2708, capacity: 10, status: 'operational' }
+      { id: 'MF001', name: 'Boeing Maintenance - Everett', lat: 47.9298, lng: -122.2817, capacity: 25, status: 'operational' },
+    { id: 'MF002', name: 'Boeing Maintenance - Renton', lat: 47.4907, lng: -122.2146, capacity: 18, status: 'operational' },
+    { id: 'MF003', name: 'Boeing Maintenance - North Charleston', lat: 32.8998, lng: -80.0414, capacity: 12, status: 'maintenance' },
+    { id: 'MF004', name: 'Boeing Maintenance - Seattle Service Center', lat: 30.6954, lng: -88.0399, capacity: 8, status: 'operational' },
+    { id: 'MF005', name: 'Boeing Global Services - Seattle', lat: 47.6062, lng: -122.3321, capacity: 15, status: 'operational' },
+    { id: 'MF006', name: 'Boeing Global Services - Miami', lat: 25.7617, lng: -80.1918, capacity: 10, status: 'operational' }
 ];
 
 const regionalCenters = [
