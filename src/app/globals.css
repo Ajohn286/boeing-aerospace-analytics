@@ -1,0 +1,23 @@
+@import 'leaflet/dist/leaflet.css';
+
+/* Fix for Leaflet in Next.js */
+.leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Hide default Leaflet attribution */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Custom marker styling */
+.leaflet-marker-icon {
+  border-radius: 50%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+} 
