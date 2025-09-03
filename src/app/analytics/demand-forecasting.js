@@ -76,7 +76,7 @@ const enginePerformanceData = {
   },
   engineTypes: [
     { 
-      name: 'Trent XWB-84', 
+      name: 'GE9X', 
       currentPerformance: 96.2, 
       forecast: 94.8, 
       trend: -1.4, 
@@ -94,7 +94,7 @@ const enginePerformanceData = {
       risk: 'High'
     },
     { 
-      name: 'CFM LEAP-1A', 
+      name: 'CFM LEAP-1B', 
       currentPerformance: 95.8, 
       forecast: 94.1, 
       trend: -1.7, 
@@ -103,7 +103,7 @@ const enginePerformanceData = {
       risk: 'Medium'
     },
     { 
-      name: 'PW1100G-JM', 
+      name: 'GEnx-1B', 
       currentPerformance: 92.1, 
       forecast: 89.5, 
       trend: -2.6, 
@@ -112,7 +112,7 @@ const enginePerformanceData = {
       risk: 'High'
     },
     { 
-      name: 'Trent 7000', 
+      name: 'GEnx-2B', 
       currentPerformance: 97.3, 
       forecast: 96.8, 
       trend: -0.5, 
@@ -122,11 +122,11 @@ const enginePerformanceData = {
     }
   ],
   maintenanceFacilities: [
-    { name: 'Toulouse', capacity: 25, utilization: 78, forecast: 82, growth: 5.1, risk: 'Low' },
-    { name: 'Hamburg', capacity: 18, utilization: 82, forecast: 87, growth: 6.1, risk: 'Medium' },
-    { name: 'Tianjin', capacity: 12, utilization: 65, forecast: 71, growth: 9.2, risk: 'Low' },
-    { name: 'Mobile', capacity: 8, utilization: 71, forecast: 76, growth: 7.0, risk: 'Low' },
-    { name: 'Seattle', capacity: 15, utilization: 89, forecast: 94, growth: 5.6, risk: 'High' }
+    { name: 'Everett', capacity: 25, utilization: 78, forecast: 82, growth: 5.1, risk: 'Low' },
+    { name: 'Renton', capacity: 18, utilization: 82, forecast: 87, growth: 6.1, risk: 'Medium' },
+    { name: 'North Charleston', capacity: 12, utilization: 65, forecast: 71, growth: 9.2, risk: 'Low' },
+    { name: 'Seattle Service Center', capacity: 8, utilization: 71, forecast: 76, growth: 7.0, risk: 'Low' },
+    { name: 'Seattle Main', capacity: 15, utilization: 89, forecast: 94, growth: 5.6, risk: 'High' }
   ],
   seasonalFactors: [
     { month: 'Jan', factor: 0.95, temperature: 45 },
@@ -634,7 +634,7 @@ export default function EnginePerformanceForecasting() {
                   <Warning color="warning" />
                 </ListItemIcon>
                 <ListItemText
-                  primary="PW1100G-JM Performance Decline"
+                  primary="GEnx-1B Performance Decline"
                   secondary="2.6% predicted decrease - investigate maintenance schedule"
                 />
               </ListItem>
@@ -644,8 +644,8 @@ export default function EnginePerformanceForecasting() {
                   <CheckCircle color="success" />
                 </ListItemIcon>
                 <ListItemText
-                  primary="Trent 7000 Performance Stability"
-                  secondary="Trent 7000 showing consistent performance"
+                  primary="GEnx-2B Performance Stability"
+                  secondary="GEnx-2B showing consistent performance"
                 />
               </ListItem>
               <Divider />
@@ -655,7 +655,7 @@ export default function EnginePerformanceForecasting() {
                 </ListItemIcon>
                 <ListItemText
                   primary="Facility Utilization Increase"
-                  secondary="Toulouse showing 5.1% growth opportunity"
+                  secondary="Everett showing 5.1% growth opportunity"
                 />
               </ListItem>
             </List>
