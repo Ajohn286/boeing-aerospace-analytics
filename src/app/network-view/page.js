@@ -821,11 +821,11 @@ export default function FleetNetworkMap() {
           <Box sx={{ mb: 3 }}>
             <Alert severity="warning" sx={{ mb: 1 }}>
               <AlertTitle>Maintenance Alert</AlertTitle>
-              Tianjin maintenance facility operating at reduced capacity
+              North Charleston maintenance facility operating at reduced capacity
             </Alert>
             <Alert severity="error" sx={{ mb: 1 }}>
               <AlertTitle>Critical Status</AlertTitle>
-              Mumbai regional center at 93% utilization - urgent attention needed
+              Seattle regional center at 93% utilization - urgent attention needed
             </Alert>
           </Box>
 
